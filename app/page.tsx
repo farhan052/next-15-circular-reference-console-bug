@@ -18,5 +18,10 @@ const objB = new B(objA)
 
 export default function Page() {
   console.log({ objA, objB })
-  return null
+  return (
+    <>
+      {objA}
+      {objB}
+    </>
+    )
 }
